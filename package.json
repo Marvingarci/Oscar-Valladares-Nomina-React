@@ -1,0 +1,58 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.14.5",
+        "autoprefixer": "^10.2.6",
+        "axios": "^0.21.1",
+        "laravel-mix": "^6.0.24",
+        "lodash": "^4.17.19",
+        "postcss": "^8.3.5",
+        "remove-webpack-plugin": "^1.2.2",
+        "tailwindcss": "^2.2.2"
+    },
+    "dependencies": {
+        "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+        "@inertiajs/inertia": "^0.8.7",
+        "@inertiajs/inertia-react": "^0.5.11",
+        "@material-ui/core": "^4.11.3",
+        "@material-ui/icons": "^4.11.2",
+        "@material-ui/lab": "^4.0.0-alpha.57",
+        "@progress/kendo-drawing": "^1.10.1",
+        "@progress/kendo-licensing": "^1.1.4",
+        "@progress/kendo-react-pdf": "^4.7.0",
+        "@types/react": "^17.0.14",
+        "@types/react-dom": "^17.0.9",
+        "chart.js": "^3.3.2",
+        "history": "^5.0.0",
+        "immutability-helper": "^3.1.1",
+        "lodash.pickby": "^4.6.0",
+        "mdbreact": "^5.1.0",
+        "quagga": "^0.12.1",
+        "react": "^18.0.0-alpha-e6be2d531",
+        "react-barcode": "^1.4.0",
+        "react-barcode-reader": "^0.0.2",
+        "react-chartjs-2": "^3.0.3",
+        "react-data-export": "^0.6.0",
+        "react-dom": "^18.0.0-alpha-e6be2d531",
+        "react-export-excel": "^0.5.3",
+        "react-select-search": "^3.0.7",
+        "react-swipeable-views": "^0.13.9",
+        "react-table": "^7.7.0",
+        "react-to-print": "^2.12.6",
+        "react-use": "^17.2.4",
+        "tailwindcss-classnames": "^2.1.3",
+        "xlsx": "^0.17.0"
+    },
+    "browser": {
+        "crypto": false
+    }
+}
