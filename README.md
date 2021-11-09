@@ -30,3 +30,9 @@ and
 ```sh
 php artisan serve
 ```
+
+credentials
+```sh
+email: admin@admin.com
+password: admin
+```
